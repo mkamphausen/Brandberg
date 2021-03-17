@@ -1,0 +1,17 @@
+.background {
+  /* background: #efefef; */
+  min-height: 150px;
+}
+
+.bar {
+  border-bottom: 1px solid var(--black, black);
+  display: grid;
+  grid-template-columns: auto 1fr;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sub_bar {
+  display: grid;
+  grid-template-columns: 1fr auto;
+}
