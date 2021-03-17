@@ -9,8 +9,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-     <p>🚧  Hier entsteht eine Seite über den Brandberg 🏠 🚧</p>
-
+     <p>🚧  Hier gibts bald mehr Infos über den Brandberg 📑 🚧</p>
+     
    </div>
   )
 }
