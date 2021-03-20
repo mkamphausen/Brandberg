@@ -1,8 +1,0 @@
-<!ELEMENT root (row)+>
-<!ELEMENT row (Site,Figure,Preservation,Disjointed_Body_Parts,Special_Features,Direct_Object)>
-<!ELEMENT Site (#PCDATA)>
-<!ELEMENT Figure (hero_name, civil_identity, age, power+)>
-<!ELEMENT Preservation (#PCDATA)>
-<!ELEMENT Disjointed_Body_Parts (#PCDATA)>
-<!ELEMENT Special_Features (#PCDATA)>
-<!ELEMENT Direct_Object (#PCDATA)>

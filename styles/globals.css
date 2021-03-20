@@ -23,3 +23,9 @@ nav a {
 * {
   box-sizing: border-box;
 }
+
+.pic_container {
+  width: 100%;
+  min-height: 700px;
+  background: grey;
+}

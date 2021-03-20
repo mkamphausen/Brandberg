@@ -5,7 +5,7 @@ export default function Nav() {
     <nav>
       <Link href="about">About</Link>
       <Link href="search">Search</Link>
-      <Link href="impressum">Impressum</Link>
+      <Link href="bildergalerie">Bildergalerie</Link>
     </nav>
   );
 }

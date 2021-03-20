@@ -1,0 +1,5 @@
+.search_bar {
+  display: inline-grid;
+  grid-auto-flow: column;
+  width: 100%;
+}
