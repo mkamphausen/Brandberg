@@ -113,8 +113,10 @@ export default function Search({ data }) {
 //takes in the data from api an provides it for the search page
 export async function getStaticProps() {
   //const hostname = "brandberg.vercel.app/api/figures"
-  const hostname = process.env.VERCEL_URL;
-  const res = await fetch(`${hostname}/api/figures`);
+  //const hostname = "https://raw.githubusercontent.com/mkamphausen/brandberg/main/data/figures.json";
+  
+  //leider konnteich die im Unterricht genutzte Methode für den Datenabruf noch nicht fehlerfrei implementieren, deshalb habe ich zu Testzwecken zunächst diese Methode gewählt
+  const res = await fetch("https://raw.githubusercontent.com/mkamphausen/brandberg/main/data/workshop1.json");
   const data = await res.json()
   
   // Pass data to the page via props
