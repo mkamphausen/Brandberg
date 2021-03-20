@@ -1,11 +1,15 @@
 import Header from './Header';
 import Footer from './Footer';
-
-export default function Page({ children }) {
+import styles from '../styles/Page.module.css'
+/*
+this component defines the general layout of the page
+it uses <Header>- and <Footer>-Components and places a div for the page content in between
+*/
+export default function Page({ children, data }) {
     return (
-      <div>
+      <div className={styles.page_layout}>
         <Header />
-        <div>{children}</div>
+        <div className={styles.content}>{children}</div>
         <Footer />
       </div>
     );

@@ -1,0 +1,11 @@
+.page_layout {
+  display: flex;
+  flex-direction: column;
+}
+.content {
+  flex: 1 0 auto;
+}
+.page_layout footer {
+  flex-shrink: 0;
+  margin-top: auto;
+}
