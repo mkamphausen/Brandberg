@@ -4,7 +4,7 @@ import { XMLHttpRequest } from "xmlhttprequest";
 
 export default (req, res) => {
   const dataURL =
-    "https://raw.githubusercontent.com/mkamphausen/brandberg/main/data/workshop1.json";
+    "https://raw.githubusercontent.com/mkamphausen/brandberg/main/data/figures.json";
 
   var xmlhttp = new XMLHttpRequest();
   xmlhttp.onreadystatechange = function () {

@@ -112,9 +112,9 @@ export default function Search({ data }) {
 //this function is called on server side during buildtime
 //takes in the data from api an provides it for the search page
 export async function getStaticProps() {
-  const hostname =
-    "https://raw.githubusercontent.com/mkamphausen/brandberg/main/data/workshop1.json";
-  const res = await fetch(`${hostname}`);
+  //const hostname = "brandberg.vercel.app/api/figures"
+  const hostname = process.env.VERCEL_URL;
+  const res = await fetch(`${hostname}/api/figures`);
   const data = await res.json()
   
   // Pass data to the page via props

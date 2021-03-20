@@ -1,0 +1,27 @@
+#Technische Dokumentation#
+
+##Projekt Brandberg##
+
+###Aufgabenstellung###
+Bitte erstellen Sie ein dynamisches Webportal, das mittels des Konzepts AJAX auf serverseitige Daten zugreift und die nachfolgenden Voraussetzungen erfüllt:
+
+    1. Datenbasis: Datenressource im JSON oder XML-Format (valide, wohlgeformte und sinnvoll konzipiertes XML+DTD) basierend auf den Ihnen zur Verfügung stehenden zwei Tabellen im csv Format mit Daten aus der Bandbergforschung.
+    2. Frontend: valides, sinnvoll konzipiertes HTML5-Dokument, mittels CSS ansprechend gestaltet. Frameworks o.ä. können auf Anfrage eingesetzt werden, nachdem Sie mit Frau Kurz Rücksprache gehalten haben.
+    3. Funktionierende JavaScript-Anwendung basierend auf AJAX.
+    4. Alles Zusammen haben Sie auf unseren Sandboxserver in Ihrem Verzeichnis hochgeladen und ihr Projekt ist im Internet funktional.
+    5. Technische Dokumentation: textuelle, technische Beschreibung ihres Projektes.
+
+###Umsetzung###
+
+####Allgemein####
+
+    Bei der eingereichten Version handelt es sich um einen ersten Prototypen.
+    Für die Umsetzung wurde das Framework Nextjs verwenden, welches auf React - einer Library für JavaScript - basiert. Eine Dokumentation zu nextjs findet sich unter https://nextjs.org/docs
+
+####Ausführung####
+
+    Nextjs nutzt node.js, das Projekt kann über das Terminal gestartet werden.
+
+####Details####
+
+[...]
